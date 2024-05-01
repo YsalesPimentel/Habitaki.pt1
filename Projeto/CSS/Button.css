@@ -1,0 +1,43 @@
+
+.buttons_pages {
+    display: flex;
+    margin-left: 1060px;
+    margin-bottom: 30px;
+}
+
+
+.iconButton {
+    background-color: #fff;
+    padding: 0;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button_two {
+    display: flex;
+    align-items: flex-end;
+}
+
+.login-button_two button {
+    border: none;
+    background-color: #ff9999;
+    padding: 0.7rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 47px;
+    width: 120px;
+}  
+
+.login-button_two button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.login-button_two button:hover{
+    background-color:  #ff4d4d;
+}
