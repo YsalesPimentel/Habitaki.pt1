@@ -3,6 +3,7 @@
     margin-bottom: 2.5rem;
     min-height: 350px;
     width: 100%;
+    
 }
 
 .main_container {
@@ -21,7 +22,6 @@
     position: relative;
     width: 800px;
 }
-
 .search_image_main {
     height: 400px;
     left: -200px;
@@ -36,6 +36,7 @@
     flex-grow: 1;
     margin-top: 120px;
     padding-top: 35px;
+    z-index: 1;
 }
 
 .search_content_title {
@@ -61,6 +62,7 @@
 .nav_items {
     display: flex;
     position: relative;
+    z-index: 2;
 }
 
 .nav_item_one {
@@ -82,15 +84,12 @@
     width: 100%;
     height: .125rem;
     background-color: #000;
+    transition: all 300ms ease-in-out;
 }
 
 .nav_items .nav_item_one {
     flex: auto;
     font-size: 15px;
-}
-
-.nav_item_one .tabs_nav_item:after {
-    background-color: #4b4b4b;
 }
 
 .home_search {
